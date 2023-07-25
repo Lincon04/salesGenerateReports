@@ -70,7 +70,7 @@ class Vendas:
         convert.create_style_to_header()
         convert.salvar('../reports/excel_vendas2.xlsx')
 
-
-vendas = Vendas('../temp/Relatorio-Vendas-js-82703.json')
-vendas.process_data()
-vendas.save_data()
+#
+# vendas = Vendas('../temp/Relatorio-Vendas-js-82703.json')
+# vendas.process_data()
+# vendas.save_data()
